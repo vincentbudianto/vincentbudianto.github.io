@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="./assets/index.js"></script>
+
+        <meta charset="UTF-8">
+	    <meta name="author" content="Vincent Budianto"/>
+	    <meta name="description" content="Personal websites homepage" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="./assets/index.css">
+        <link rel="icon" href="./assets/image/icon.png" type="image/png">
+
+        <title>Vincent Budianto</title>
+    </head>
+
+    <body>
+        <div id="particles" class="particles"></div>
+        <div id="loading">
+            <div id="spinner"></div>
+        </div>
+
+        <div id="navbar" class="animated slideInDown" style="animation-delay:1.8s;">
+            <div id="links">
+                <button class="navigation" href="#header">Home</button>
+                <a class="navigation" href="./gitfolio/">GitFolio</a>
+            </div>
+            <div id="links">
+                <button class="navigation" id="mark_experience" href="#experience" style="display: none;">Experience</button>
+                <button class="navigation" id="mark_projects" href="#projects" style="display: none;">Projects</button>
+                <button class="navigation" href="#about">About</button>
+            </div>
+        </div>
+
+        <div id="content">
+            <center>
+                <div id="header" class="animated fadeIn" style="animation-delay:1.8s;">
+                    <div id="title">~~~ 明日方舟 ~~~</div><br>
+                </div>
+
+                <div id="middle">
+                    <div id="typewriter" class="animated zoomIn" style="animation-delay:1.8s;">
+                        <h1>Hi, my name is Vincent Budianto</h1>
+                    </div>
+                </div>
+            </center>
+
+            <div id="experience">
+                <h1>Experience</h1>
+                <div class="experience">
+                    <div class="cards">
+                    </div>
+                </div>
+            </div>
+
+            <div id="projects">
+                <h1>Projects</h1>
+                <div class="project">
+                    <div class="carousel">
+                    </div>
+                </div>
+            </div>
+
+            <div id="about">
+                <h1>About</h1>
+                <div class="profile">
+                    <div id="profile_img" style="background: url(https://media-exp1.licdn.com/dms/image/C5103AQEykZoXApDoeQ/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=pMtByB5qXl2YS8HdWZWosN5YmLG66uEkefDIwsimLvY) center;"></div>
+                    <div id="profile_desc">
+                        Hello, I’m VB an avid programmer learning about informatics in university. I’m currently a third year student
+                        majoring in Informatics Engineering at Bandung Institute of Technology (ITB).
+                    </div>
+                </div>
+                <div id="social">
+                    <div>
+                        Find me at :
+                    </div>
+                    <a href="mailto:vincentbudianto@gmail.com">
+                        <i class="btn_social fas fa-envelope"></i>
+                        &nbsp; vincentbudianto@gmail.com
+                    </a>
+                    <a href="https://github.com/vincentbudianto" target="_blank">
+                        <i class="btn_social fab fa-github"></i>
+                        &nbsp; vincentbudianto
+                    </a>
+                    <a href="https://www.linkedin.com/in/vincentbudianto" target="_blank">
+                        <i class="btn_social fab fa-linkedin-in"></i>
+                        &nbsp; vincentbudianto
+                    </a>
+                    <a href="https://www.instagram.com/vincent_vb" target="_blank">
+                        <i class="btn_social fab fa-instagram"></i>
+                        &nbsp; vincent_vb
+                    </a>
+                    <a href="https://www.facebook.com/vincent.budianto" target="_blank">
+                        <i class="btn_social fab fa-facebook"></i>
+                        &nbsp; vincent VB
+                    </a>
+                    <a href="https://gitlab.com/vincentbudianto" target="_blank">
+                        <i class="btn_social fab fa-gitlab"></i>
+                        &nbsp; vincentbudianto
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

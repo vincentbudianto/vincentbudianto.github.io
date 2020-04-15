@@ -1,0 +1,58 @@
+[
+	{
+		"type": "Organization",
+		"icon": "fas fa-globe",
+		"title": "Head of Data and Archive Division",
+		"affiliation": "Himpunan Mahasiswa Teknik Informatika (HMIF) ITB",
+		"description": "",
+		"background": "./image/organization1.jpg"
+	},
+	{
+		"type": "Work Experience",
+		"icon": "fas fa-briefcase",
+		"title": "Introduction to Programming Lab Assistant",
+		"affiliation": "Comlabs-USDI ITB",
+		"description": "• Working as lecturer’s assistant on tutoring first-year students about basic programming in Fortran, Python and C++.\n• Help student‘s technical difficulties during lab session.\n• Grade student’s homework by checking their codes.",
+		"background": "./image/work_experience1.jpg"
+	},
+	{
+		"type": "Work Experience",
+		"icon": "fas fa-briefcase",
+		"title": "Basic Programming Lab Assistant",
+		"affiliation": "Programming Lab Teknik Informatika ITB",
+		"description": "• Working as lecturer’s assistant on tutoring first-year students about basic programming in Haskell and Python.\n• Help student‘s technical difficulties during lab session.",
+		"background": "./image/work_experience2.jpg"
+	},
+	{
+		"type": "Volunteer Experience",
+		"icon": "fas fa-hands-helping",
+		"title": "Game Development Technocamp Mentor",
+		"affiliation": "Arkavidia 6.0",
+		"description": "• Working as lecturer’s assistant on tutoring highschool students about game design and development using Unity.\n• Help highschool student’s technical difficulties during Technocamp session.",
+		"background": "./image/volunteer_experience1.jpg"
+	},
+	{
+		"type": "Volunteer Experience",
+		"icon": "fas fa-hands-helping",
+		"title": "Logistic Officer",
+		"affiliation": "Arkavidia 6.0",
+		"description": "• Provide technical services during Arkavidia pre-event and main event.",
+		"background": "./image/volunteer_experience2.jpg"
+	},
+	{
+		"type": "Volunteer Experience",
+		"icon": "fas fa-hands-helping",
+		"title": "Logistic Officer",
+		"affiliation": "Arkavidia 5.0",
+		"description": "• Provide technical services during Arkavidia pre-event and main event.",
+		"background": "./image/volunteer_experience3.jpg"
+	},
+	{
+		"type": "Volunteer Experience",
+		"icon": "fas fa-hands-helping",
+		"title": "Head of Human Resource Management at SPARTA HMIF 2018",
+		"affiliation": "Himpunan Mahasiswa Teknik Informatika (HMIF) ITB",
+		"description": "• Oversee committee recruitment process\n• Plan and coordinate the workforce to best use committee talents",
+		"background": "./image/volunteer_experience4.jpg"
+	}
+]
