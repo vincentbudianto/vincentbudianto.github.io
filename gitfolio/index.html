@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="   crossorigin="anonymous"></script>
+        <script src="./assets/index.js"></script>
+
+        <meta charset="UTF-8">
+	    <meta name="author" content="Vincent Budianto"/>
+	    <meta name="description" content="Personal websites gitfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa:700">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="assets/index.css">
+        <link rel="icon" href="assets/image/icon.png" type="image/png">
+
+        <title>GitFolio - Vincent Budianto</title>
+    </head>
+
+    <body>
+        <div id="background">
+            <div id="loading">
+                <div id="spinner"></div>
+            </div>
+
+            <div id="navbar">
+                <div id="navbar" class="animated slideInDown" style="animation-delay:1.8s;">
+                    <div id="links">
+                        <a href="../">Home</a>
+                        <a href="./gitfolio/" onclick="return false" >GitFolio</a>
+                    </div>
+                    <div id="links">
+                        <button class="navigation" id="mark_repository" href="#repository_title" style="display: none;">Projects</button>
+                        <button class="navigation" id="mark_forks" href="#forks_title" style="display: none;">Forked Projects</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="profile">
+                <div id="profile_img" style="background: url(https://media-exp1.licdn.com/dms/image/C5103AQEykZoXApDoeQ/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=pMtByB5qXl2YS8HdWZWosN5YmLG66uEkefDIwsimLvY) center;"></div>
+                <div id="username">
+                    <div>vincent VB</div>
+                    <a href="https://github.com/vincentbudianto" target="_blank">@vincentbudianto</a>
+                </div>
+                <div id="userbio" style="display: block;">I'm a student interested in software engineering</div>
+                <div id="about">
+                    <span>
+                        <a href="mailto:vincentbudianto@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            &nbsp; vincentbudianto@gmail.com
+                        </a>
+                    </span>
+                    <span>
+                        <a href="https://vincentbudianto.github.io" target="_blank">
+                            <i class="fas fa-link"></i>
+                            &nbsp; vincentbudianto.github.io
+                        </a>
+                    </span>
+                    <span>
+                        <a href="https://www.google.com/maps/place/Bandung,+Bandung+City,+West+Java/@-6.903429,107.5030708,11z/data=!3m1!4b1!4m5!3m4!1s0x2e68e6398252477f:0x146a1f93d3e815b2!8m2!3d-6.9174639!4d107.6191228">
+                            <i class="fas fa-map-marker-alt" target="_blank"></i>
+                            &nbsp;&nbsp; Bandung, &nbsp;Indonesia
+                        </a>
+                    </span>
+                    <div class="socials">
+                        <span>
+                            <a href="https://www.linkedin.com/in/vincentbudianto" target="_blank" class="btn_social">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://www.facebook.com/vincent.budianto" target="_blank" class="btn_social">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://www.instagram.com/vincent_vb" target="_blank" class="btn_social">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://gitlab.com/vincentbudianto" target="_blank" class="btn_social">
+                                <i class="fab fa-gitlab"></i>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="https://github.com/vincentbudianto" target="_blank" class="btn_social">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content">
+                <div id="repository">
+                    <div class="projects" id="repository_title"></div>
+                    <div class="projects" id="repository_section"></div>
+                </div>
+
+                <div id="forks">
+                    <div class="projects" id="forks_title"></div>
+                    <div class="projects" id="forks_section"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
