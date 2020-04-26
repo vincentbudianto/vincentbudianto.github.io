@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 	$(".navigation").on('click', function() {
 		let hash = $.attr(this, 'href');
 
@@ -30,24 +30,24 @@ $(document).ready(function(){
 
 let width = $(window).width();
 
-window.onscroll = function(){
-	if ((width >= 900)){
-		if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+window.onscroll = function() {
+	if ((width >= 900)) {
+		if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
 			$("#middle").css("background-size","150% auto");
-		}else{
+		} else {
 			$("#middle").css("background-size","100% auto");
 		}
 	}
 };
 
-setTimeout(function(){
+setTimeout(function() {
 	$("#loading").addClass("animated fadeOut");
 
-    setTimeout(function(){
+    setTimeout(function() {
     	$("#loading").removeClass("animated fadeOut");
     	$("#loading").css("display","none");
-    },800);
-},1450);
+    }, 800);
+}, 1450);
 
 $.getJSON("./assets/data/experience.json", function (exp) {
 	exp = exp || [];
@@ -86,8 +86,7 @@ $.getJSON("./assets/data/experience.json", function (exp) {
 					</div>
 				</div>
 			`);
-		}
-		else {
+		} else {
 			$(".cards").append(`
 				<div class="card" style="--optionBackground: url(${exp[i].background})">
 					<div class="shadow"></div>
@@ -121,7 +120,7 @@ $.getJSON("./assets/data/experience.json", function (exp) {
 		$(".card").removeClass("active");
 		$(this).addClass("active");
 	});
-}).fail(function () {
+}).fail(function() {
 	document.getElementById("mark_experience").style.display = "none";
 
   	return (document.getElementById("experience").style.display = "none");
@@ -178,8 +177,7 @@ $.getJSON("https://api.github.com/users/vincentbudianto/repos?per_page=100", fun
 					</div>
 				</div>
 			`);
-		}
-		else {
+		} else {
 			$(".carousel").append(`
 				<div class="carousel-item">
 					<div class="project_card">
@@ -220,7 +218,7 @@ $.getJSON("https://api.github.com/users/vincentbudianto/repos?per_page=100", fun
 		}
 	}
 
-	$(document).ready(function () {
+	$(document).ready(function() {
 		$(".carousel").carousel({
 			duration: 400,
 			indicators: true,
@@ -228,7 +226,7 @@ $.getJSON("https://api.github.com/users/vincentbudianto/repos?per_page=100", fun
 			shift: 25
 		});
 	});
-}).fail(function () {
+}).fail(function() {
 	document.getElementById("mark_projects").style.display = "none";
 
   	return (document.getElementById("projects").style.display = "none");
