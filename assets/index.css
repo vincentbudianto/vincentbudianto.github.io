@@ -136,11 +136,12 @@ body {
     width: fit-content;
     max-width: 100%;
     display: inline-flex;
+    margin: 0px auto;
 }
 
 #typewriter h1 {
-    font-size: 50px;
     margin: 0px auto;
+    font-size: 50px;
     overflow: hidden;
     border-right: 0.15em solid white;
     white-space: nowrap;
@@ -497,6 +498,7 @@ body {
     max-width: 200px;
     max-height: 200px;
     border-radius: 50%;
+    background: url("./image/profilePicture.png") center;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     margin-left: auto;
